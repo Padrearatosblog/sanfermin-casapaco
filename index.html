@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casa Paco | San Fermín 2026</title>
+
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="hero">
+    <div class="overlay"></div>
+
+    <nav class="topbar">
+      <div class="brand">Casa Paco</div>
+
+      <div class="language-switch">
+        <button class="lang-btn active" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="fr">FR</button>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="hero-kicker" data-i18n="heroKicker">San Fermín · Pamplona</p>
+      <h1>Casa Paco</h1>
+      <p class="hero-subtitle" data-i18n="heroSubtitle">Almuerzos · Menú del día · Carta</p>
+      <p class="hero-note" data-i18n="orderNote">Puedes pedir indicando el número del plato.</p>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section-tabs">
+      <button class="tab-btn active" data-section="breakfast">
+        <span>☀️</span>
+        <strong data-i18n="breakfastTab">Almuerzos</strong>
+        <small>08:00 — 14:00</small>
+      </button>
+
+      <button class="tab-btn" data-section="daily">
+        <span>🍽️</span>
+        <strong data-i18n="dailyTab">Menú del día</strong>
+        <small>15:00 — 18:00</small>
+      </button>
+
+      <button class="tab-btn" data-section="menu">
+        <span>🌙</span>
+        <strong data-i18n="menuTab">Carta</strong>
+        <small data-i18n="menuTime">18:00 — cierre</small>
+      </button>
+    </section>
+
+    <section class="menu-section active breakfast-style" id="breakfast">
+      <div class="section-header">
+        <p>08:00 — 14:00</p>
+        <h2 data-i18n="breakfastTitle">Almuerzos San Fermín</h2>
+        <div class="price-seal">
+          <strong>24€</strong>
+          <span data-i18n="drinkIncluded">Bebida incluida</span>
+        </div>
+      </div>
+
+      <div id="breakfastContent"></div>
+    </section>
+
+    <section class="menu-section daily-style" id="daily">
+      <div class="section-header">
+        <p>15:00 — 18:00</p>
+        <h2 data-i18n="dailyTitle">Menú San Fermín</h2>
+        <span class="no-price" data-i18n="noPrice">Precio no visible en carta digital</span>
+      </div>
+
+      <div id="dailyContent"></div>
+
+      <div class="included-box">
+        <h3 data-i18n="includedTitle">Incluye</h3>
+        <p data-i18n="includedText">Café, cerveza, refrescos, botella de vino para dos o sidra y pan.</p>
+      </div>
+    </section>
+
+    <section class="menu-section menu-style" id="menu">
+      <div class="section-header">
+        <p data-i18n="menuTime">18:00 — cierre</p>
+        <h2 data-i18n="menuTitle">Carta</h2>
+      </div>
+
+      <div id="menuContent"></div>
+    </section>
+
+    <section class="allergens-section">
+      <h2 data-i18n="allergensTitle">Alérgenos</h2>
+      <div id="allergensList" class="allergens-list"></div>
+      <p data-i18n="allergensWarning">Consulta con nuestro equipo ante cualquier alergia o intolerancia.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <h2>Casa Paco</h2>
+    <p>San Fermín 2026 · Pamplona</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
