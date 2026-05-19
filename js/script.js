@@ -96,7 +96,7 @@ const translations = {
       mainDishes: [
         {n:"3.1", title:"Albóndigas con tomate y patatas fritas", desc:"Plato de albóndigas caseras con tomate.", price:"17€", tags:["Sin gluten"]},
         {n:"3.2", title:"Rabo estofado con patatas fritas caseras", desc:"⭐ Especialidad de la casa.", price:"", tags:[]},
-        {n:"3.3", title:"Entrecot de vaca pirenaica con piquillos y patatas fritas", desc:"Entrecot acompañado de piquillos y patatas fritas.", price:"24€", tags:[]},
+        {n:"3.3", title:"Solomillo de vaca con roquefort y patatas panaderas", desc:"Solomillo acompañado de salsa roquefort y patatas panaderas.", price:"24€", tags:["Lácteos"]},
         {n:"3.4", title:"Callos estilo tradicional con jamón y chorizo", desc:"Receta tradicional cocinada lentamente.", price:"20€", tags:[]},
         {n:"3.5", title:"Ajoarriero con huevo a baja temperatura y patatas paja", desc:"Receta tradicional con huevo y patatas paja.", price:"22€", tags:["Pescado","Huevo"], info:"El ajoarriero es una receta tradicional elaborada con pescado desmigado, ajo y verduras."},
         {n:"3.6", title:"Pescado fresco del día con patatas panaderas", desc:"Pescado fresco según mercado.", price:"20€", tags:["Pescado"]}
@@ -191,7 +191,7 @@ const translations = {
       mainDishes: [
         {n:"3.1", title:"Meatballs with tomato and fries", desc:"Homemade meatballs with tomato sauce.", price:"17€", tags:["Gluten free"]},
         {n:"3.2", title:"Stewed oxtail with homemade fries", desc:"⭐ House speciality.", price:"", tags:[]},
-        {n:"3.3", title:"Pyrenean beef entrecôte with piquillo peppers and fries", desc:"Entrecôte served with peppers and fries.", price:"24€", tags:[]},
+        {n:"3.3", title:"Beef tenderloin with Roquefort and bakery potatoes", desc:"Tenderloin served with Roquefort sauce and bakery potatoes.", price:"24€", tags:["Dairy"]},
         {n:"3.4", title:"Traditional tripe with ham and chorizo", desc:"Slow-cooked traditional recipe.", price:"20€", tags:[]},
         {n:"3.5", title:"Ajoarriero with low-temperature egg and straw potatoes", desc:"Traditional recipe with egg and straw potatoes.", price:"22€", tags:["Fish","Egg"], info:"Ajoarriero is a traditional dish made with shredded fish, garlic and vegetables."},
         {n:"3.6", title:"Fresh fish of the day with bakery potatoes", desc:"Fresh market fish.", price:"20€", tags:["Fish"]}
@@ -286,7 +286,7 @@ const translations = {
       mainDishes: [
         {n:"3.1", title:"Boulettes à la tomate avec frites", desc:"Boulettes maison à la sauce tomate.", price:"17€", tags:["Sans gluten"]},
         {n:"3.2", title:"Queue de bœuf mijotée avec frites maison", desc:"⭐ Spécialité de la maison.", price:"", tags:[]},
-        {n:"3.3", title:"Entrecôte de bœuf pyrénéen avec piquillos et frites", desc:"Entrecôte servie avec piquillos et frites.", price:"24€", tags:[]},
+        {n:"3.3", title:"Filet de bœuf au roquefort et pommes boulangères", desc:"Filet servi avec sauce roquefort et pommes boulangères.", price:"24€", tags:["Produits laitiers"]},
         {n:"3.4", title:"Tripes traditionnelles avec jambon et chorizo", desc:"Recette traditionnelle mijotée.", price:"20€", tags:[]},
         {n:"3.5", title:"Ajoarriero avec œuf basse température et pommes paille", desc:"Recette traditionnelle avec œuf et pommes paille.", price:"22€", tags:["Poisson","Œuf"], info:"L’ajoarriero est une recette traditionnelle à base de poisson émietté, d’ail et de légumes."},
         {n:"3.6", title:"Poisson frais du jour avec pommes boulangères", desc:"Poisson frais selon le marché.", price:"20€", tags:["Poisson"]}
