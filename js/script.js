@@ -351,23 +351,44 @@ function renderCategory(title, items){
   `;
 }
 
+function numberItems(items, start){
+  return items.map((item, index) => ({
+    ...item,
+    n: String(start + index).padStart(2, "0")
+  }));
+}
+
+function renderNumberedCategories(categories){
+  let nextNumber = categories[0]?.start || 1;
+
+  return categories.map(category => {
+    const numberedItems = numberItems(category.items, nextNumber);
+    nextNumber += category.items.length;
+    return renderCategory(category.title, numberedItems);
+  }).join("");
+}
+
 function renderContent(){
   const t = translations[currentLang];
 
-  breakfastContent.innerHTML = renderCategory(t.categories.breakfast, t.breakfast);
+  breakfastContent.innerHTML = renderCategory(t.categories.breakfast, numberItems(t.breakfast, 1));
 
   dailyContent.innerHTML = `
-    ${renderCategory(t.categories.starters, t.daily.starters)}
-    ${renderCategory(t.categories.mains, t.daily.mains)}
-    ${renderCategory(t.categories.desserts, t.daily.desserts)}
+    ${renderNumberedCategories([
+      {title: t.categories.starters, items: t.daily.starters, start: 10},
+      {title: t.categories.mains, items: t.daily.mains},
+      {title: t.categories.desserts, items: t.daily.desserts}
+    ])}
   `;
 
   menuContent.innerHTML = `
-    ${renderCategory(t.categories.sharing, t.menu.sharing)}
-    ${renderCategory(t.categories.sandwiches, t.menu.sandwiches)}
-    ${renderCategory(t.categories.mainDishes, t.menu.mainDishes)}
-    ${renderCategory(t.categories.fried, t.menu.fried)}
-    ${renderCategory(t.categories.desserts, t.menu.desserts)}
+    ${renderNumberedCategories([
+      {title: t.categories.sharing, items: t.menu.sharing, start: 20},
+      {title: t.categories.sandwiches, items: t.menu.sandwiches},
+      {title: t.categories.mainDishes, items: t.menu.mainDishes},
+      {title: t.categories.fried, items: t.menu.fried},
+      {title: t.categories.desserts, items: t.menu.desserts}
+    ])}
   `;
 
   allergensList.innerHTML = t.allergens.map(a => `<span>${a}</span>`).join("");
