@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2850" viewBox="0 0 1600 2850">
+<rect width="1600" height="2850" fill="#16110d"/>
+<rect x="44" y="44" width="1512" height="2762" rx="34" fill="#211811" stroke="#c7a36b" stroke-width="4"/>
+<text x="80" y="104" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="#e9d7bc">CASA PACO</text>
+<text x="80" y="158" font-family="Georgia, serif" font-size="64" font-weight="700" fill="#ffffff">Chuleta camareros</text>
+<text x="80" y="205" font-family="Inter, Arial, sans-serif" font-size="26" fill="#c9b69d">Numeros y nombres de platos - San Fermin</text>
+<text x="1280" y="116" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="24" fill="#c9b69d">01 Almuerzos</text>
+<text x="1280" y="154" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="24" fill="#c9b69d">10 Menu</text>
+<text x="1280" y="192" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="24" fill="#c9b69d">30 Carta</text>
+<line x1="80" y1="237" x2="1520" y2="237" stroke="#6f5738" stroke-width="2"/>
+<text x="80" y="282" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="900" fill="#c7a36b">ALMUERZOS</text>
+<text x="1520" y="282" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="650" fill="#c9b69d">08:00 - 14:00</text>
+<rect x="100" y="314" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="344" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">01</text>
+<text x="188" y="344" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Huevos, patatas, txistorra, jamón y panceta</text>
+<rect x="820" y="314" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="344" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">02</text>
+<text x="908" y="344" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Ajoarriero con huevo y patata paja</text>
+<rect x="100" y="372" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="402" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">03</text>
+<text x="188" y="402" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Callos a la navarra</text>
+<rect x="820" y="372" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="402" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">04</text>
+<text x="908" y="402" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Rabo guisado con patatas</text>
+<line x1="80" y1="461" x2="1520" y2="461" stroke="#6f5738" stroke-width="2"/>
+<text x="80" y="506" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="900" fill="#c7a36b">MENU DEL DIA</text>
+<text x="1520" y="506" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="650" fill="#c9b69d">15:00 - 18:00</text>
+<text x="100" y="568" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#d8c3a3">Primeros</text>
+<rect x="100" y="586" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="616" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">10</text>
+<text x="188" y="616" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Tomate de temporada con burrata</text>
+<rect x="820" y="586" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="616" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">11</text>
+<text x="908" y="616" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Ensaladilla rusa casera con grisines</text>
+<rect x="100" y="644" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="674" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">12</text>
+<text x="188" y="674" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Pochas a la navarra con almejas y piparras</text>
+<rect x="820" y="644" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="674" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">13</text>
+<text x="908" y="674" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Risotto de hongos y parmesano</text>
+<rect x="100" y="702" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="732" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">14</text>
+<text x="188" y="732" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Gazpacho con huevo, jamón y picatostes</text>
+<text x="100" y="818" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#d8c3a3">Segundos</text>
+<rect x="100" y="836" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="866" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">15</text>
+<text x="188" y="866" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Solomillo roquefort y patatas panaderas</text>
+<rect x="820" y="836" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="866" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">16</text>
+<text x="908" y="866" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Rabo estofado con patatas fritas</text>
+<rect x="100" y="894" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="924" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">17</text>
+<text x="188" y="924" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Callos tradicionales con jamón y chorizo</text>
+<rect x="820" y="894" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="924" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">18</text>
+<text x="908" y="924" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Ajoarriero con huevo BT y patata paja</text>
+<rect x="100" y="952" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="982" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">19</text>
+<text x="188" y="982" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Lubina estilo Orio con patatas panaderas</text>
+<text x="100" y="1068" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#d8c3a3">Postres</text>
+<rect x="100" y="1086" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="1116" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">20</text>
+<text x="188" y="1116" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Cuajada de Ultzama con miel y nueces</text>
+<rect x="820" y="1086" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="1116" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">21</text>
+<text x="908" y="1116" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Cremoso de queso, frutos rojos y Lotus</text>
+<rect x="100" y="1144" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="1174" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">22</text>
+<text x="188" y="1174" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Arroz con leche casero con canela</text>
+<rect x="820" y="1144" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="1174" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">23</text>
+<text x="908" y="1174" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Sorbete de mandarina al pacharán</text>
+<line x1="80" y1="1233" x2="1520" y2="1233" stroke="#6f5738" stroke-width="2"/>
+<text x="80" y="1278" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="900" fill="#c7a36b">CARTA</text>
+<text x="1520" y="1278" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="650" fill="#c9b69d">18:00 - cierre</text>
+<text x="100" y="1340" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#d8c3a3">Para compartir</text>
+<rect x="100" y="1358" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="1388" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">30</text>
+<text x="188" y="1388" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Patatas Bravas</text>
+<rect x="820" y="1358" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="1388" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">31</text>
+<text x="908" y="1388" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Rabas</text>
+<rect x="100" y="1416" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="1446" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">32</text>
+<text x="188" y="1446" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Jamón ibérico, tumaca y tostones AOVE</text>
+<rect x="820" y="1416" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="1446" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">33</text>
+<text x="908" y="1446" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Pimientos de Padrón</text>
+<rect x="100" y="1474" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="1504" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">34</text>
+<text x="188" y="1504" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Ración de txistorra de Arbizu</text>
+<text x="100" y="1590" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#d8c3a3">Bocadillos</text>
+<rect x="100" y="1608" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="1638" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">35</text>
+<text x="188" y="1638" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Albóndigas caseras con tomate</text>
+<rect x="820" y="1608" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="1638" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">36</text>
+<text x="908" y="1638" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Ajoarriero</text>
+<rect x="100" y="1666" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="1696" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">37</text>
+<text x="188" y="1696" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Lomo, queso y piquillos</text>
+<rect x="820" y="1666" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="1696" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">38</text>
+<text x="908" y="1696" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Jamón pasado con tomate</text>
+<rect x="100" y="1724" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="1754" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">39</text>
+<text x="188" y="1754" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Hamburguesa mixta</text>
+<text x="100" y="1840" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#d8c3a3">Platos principales</text>
+<rect x="100" y="1858" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="1888" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">40</text>
+<text x="188" y="1888" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Albóndigas con tomate y patatas fritas</text>
+<rect x="820" y="1858" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="1888" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">41</text>
+<text x="908" y="1888" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Rabo estofado con patatas fritas caseras</text>
+<rect x="100" y="1916" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="1946" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">42</text>
+<text x="188" y="1946" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Solomillo roquefort y patatas panaderas</text>
+<rect x="820" y="1916" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="1946" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">43</text>
+<text x="908" y="1946" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Callos tradicionales con jamón y chorizo</text>
+<rect x="100" y="1974" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="2004" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">44</text>
+<text x="188" y="2004" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Ajoarriero con huevo BT y patata paja</text>
+<rect x="820" y="1974" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="2004" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">45</text>
+<text x="908" y="2004" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Pescado fresco del día y panaderas</text>
+<text x="100" y="2090" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#d8c3a3">Fritos</text>
+<rect x="100" y="2108" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="2138" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">46</text>
+<text x="188" y="2138" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Croqueta de jamón</text>
+<rect x="820" y="2108" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="2138" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">47</text>
+<text x="908" y="2138" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Frito de pimiento</text>
+<rect x="100" y="2166" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="2196" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">48</text>
+<text x="188" y="2196" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Frito de jamón y queso</text>
+<rect x="820" y="2166" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="2196" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">49</text>
+<text x="908" y="2196" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Frito de gamba</text>
+<text x="100" y="2282" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#d8c3a3">Postres</text>
+<rect x="100" y="2300" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="2330" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">50</text>
+<text x="188" y="2330" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Cuajada</text>
+<rect x="820" y="2300" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="2330" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">51</text>
+<text x="908" y="2330" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Cremoso de queso</text>
+<rect x="100" y="2358" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="135" y="2388" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">52</text>
+<text x="188" y="2388" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Arroz con leche</text>
+<rect x="820" y="2358" width="70" height="42" rx="10" fill="#c7a36b"/>
+<text x="855" y="2388" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#17110c">53</text>
+<text x="908" y="2388" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="650" fill="#f7efe3">Sorbete de mandarina al pacharán</text>
+<text x="80" y="2760" font-family="Inter, Arial, sans-serif" font-size="22" fill="#a99578">Uso interno. Numeracion por servicio: 01, 10 y 30.</text>
+</svg>

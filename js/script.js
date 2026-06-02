@@ -12,8 +12,11 @@ const translations = {
     menuTitle: "Carta",
     drinkIncluded: "Bebida incluida",
     noPrice: "Precio no visible en carta digital",
-    includedTitle: "Incluye",
-    includedText: "Café, cerveza, refrescos, botella de vino para dos o sidra y pan.",
+    includedTitle: "Información del menú",
+    includedText: "Bebida incluida: 1 botella de vino o sidra cada 2 personas, 1 refresco o 1 caña y agua.",
+    glutenBreadNote: "Opción de pan sin gluten disponible.",
+    noShareNote: "No está permitido compartir menú.",
+    dailyAllergyNote: "Para alergias y/o intolerancias, consulta con nuestro personal.",
     allergensTitle: "Alérgenos",
     allergensWarning: "Consulta con nuestro equipo ante cualquier alergia o intolerancia.",
     infoBtn: "Más info",
@@ -27,7 +30,7 @@ const translations = {
       mainDishes: "Platos principales",
       fried: "Fritos"
     },
-    allergens: ["Gluten","Crustáceos","Huevo","Pescado","Cacahuetes","Soja","Lácteos","Frutos secos","Apio","Mostaza","Sésamo","Sulfitos","Altramuces","Moluscos","Alcohol","Sin gluten"],
+    allergens: ["Gluten","Crustáceos","Huevo","Pescado","Cacahuetes","Soja","Lácteos","Frutos secos","Apio","Mostaza","Sésamo","Sulfitos","Altramuces","Moluscos","Alcohol","Sin gluten","Opción sin gluten","Puede contener trazas de gluten"],
     breakfast: [
       {
         n:"1.1",
@@ -58,33 +61,33 @@ const translations = {
     ],
     daily: {
       starters: [
-        {n:"1.1", title:"Ensalada de tomate de temporada con burrata", desc:"Aceite de albahaca, vinagreta y nueces.", tags:["Lácteos","Frutos secos","Sulfitos"]},
-        {n:"1.2", title:"Ensaladilla rusa casera con grisines", desc:"Opción sin grisines disponible.", tags:["Huevo","Gluten"]},
-        {n:"1.3", title:"Pochas a la navarra con almejas y piparras", desc:"Guiso tradicional navarro.", tags:["Moluscos"], info:"Las pochas son una variedad de alubia típica navarra de textura suave y sabor delicado."},
+        {n:"1.1", title:"Ensalada de tomate de temporada con burrata", desc:"Aceite de albahaca, vinagreta y nueces.", tags:["Lácteos","Frutos secos","Sulfitos","Sin gluten"]},
+        {n:"1.2", title:"Ensaladilla rusa casera con grisines", desc:"Opción sin gluten sin grisines.", tags:["Huevo","Pescado","Gluten","Opción sin gluten"]},
+        {n:"1.3", title:"Pochas a la navarra con almejas y piparras", desc:"Guiso tradicional navarro.", tags:["Moluscos","Sin gluten"], info:"Las pochas son una variedad de alubia típica navarra de textura suave y sabor delicado."},
         {n:"1.4", title:"Risotto de hongos y parmesano", desc:"Arroz meloso con hongos y queso parmesano.", tags:["Lácteos"]},
-        {n:"1.5", title:"Gazpacho casero con huevo duro, jamón y picatostes", desc:"Opción sin gluten disponible.", tags:["Huevo","Gluten","Sulfitos"]}
+        {n:"1.5", title:"Gazpacho casero con huevo duro, jamón y picatostes", desc:"Sin picatostes.", tags:["Huevo","Sulfitos","Sin gluten"]}
       ],
       mains: [
-        {n:"2.1", title:"Solomillo de vaca con roquefort y patatas panaderas", desc:"Solomillo acompañado de salsa roquefort.", tags:["Lácteos"]},
-        {n:"2.2", title:"Rabo estofado con patatas fritas", desc:"⭐ Especialidad de la casa.", tags:["Sulfitos"]},
-        {n:"2.3", title:"Callos estilo tradicional con jamón y chorizo", desc:"Receta tradicional elaborada lentamente.", tags:["Sulfitos"]},
-        {n:"2.4", title:"Ajoarriero con huevo a baja temperatura y patatas paja", desc:"Receta tradicional del norte.", tags:["Pescado","Huevo"], info:"El ajoarriero es una receta tradicional elaborada con pescado desmigado, ajo y verduras."},
-        {n:"2.5", title:"Lubina estilo Orio con patatas panaderas", desc:"Lubina preparada al estilo tradicional vasco.", tags:["Pescado","Sulfitos"], info:"El estilo Orio es una preparación vasca con aceite, ajo, vinagre y guindilla servida sobre pescado."}
+        {n:"2.1", title:"Solomillo de vaca con roquefort y patatas panaderas", desc:"Solomillo acompañado de salsa roquefort.", tags:["Lácteos","Sin gluten"]},
+        {n:"2.2", title:"Rabo estofado con patatas fritas", desc:"⭐ Especialidad de la casa. Opción sin gluten con patatas panaderas en lugar de fritas.", tags:["Sulfitos","Opción sin gluten"]},
+        {n:"2.3", title:"Callos estilo tradicional con jamón y chorizo", desc:"Receta tradicional elaborada lentamente.", tags:["Sulfitos","Sin gluten"]},
+        {n:"2.4", title:"Ajoarriero con huevo a baja temperatura y patatas paja", desc:"Receta tradicional del norte.", tags:["Pescado","Huevo","Sin gluten"], info:"El ajoarriero es una receta tradicional elaborada con pescado desmigado, ajo y verduras."},
+        {n:"2.5", title:"Lubina estilo Orio con patatas panaderas", desc:"Lubina preparada al estilo tradicional vasco.", tags:["Pescado","Sulfitos","Sin gluten"], info:"El estilo Orio es una preparación vasca con aceite, ajo, vinagre y guindilla servida sobre pescado."}
       ],
       desserts: [
-        {n:"3.1", title:"Cuajada de Ultzama con miel y nueces", desc:"Postre tradicional navarro.", tags:["Lácteos","Frutos secos"], info:"Ultzama es un valle navarro conocido por sus productos lácteos y su cuajada tradicional."},
-        {n:"3.2", title:"Cremoso de queso con frutos rojos y lluvia de Lotus", desc:"Postre cremoso con frutos rojos y galleta Lotus.", tags:["Lácteos","Gluten","Soja"]},
-        {n:"3.3", title:"Arroz con leche casero con canela", desc:"Receta tradicional elaborada lentamente.", tags:["Lácteos"]},
-        {n:"3.4", title:"Sorbete de mandarina al pacharán", desc:"Sorbete refrescante con pacharán navarro.", tags:["Alcohol","Sulfitos"], info:"El pacharán es un licor típico navarro elaborado a partir de endrinas."}
+        {n:"3.1", title:"Cuajada de Ultzama con miel y nueces", desc:"Postre tradicional navarro.", tags:["Lácteos","Frutos secos","Sin gluten"], info:"Ultzama es un valle navarro conocido por sus productos lácteos y su cuajada tradicional."},
+        {n:"3.2", title:"Cremoso de queso con frutos rojos y lluvia de Lotus", desc:"Opción sin gluten sin galleta Lotus.", tags:["Lácteos","Gluten","Soja","Opción sin gluten"]},
+        {n:"3.3", title:"Arroz con leche casero con canela", desc:"Receta tradicional elaborada lentamente.", tags:["Lácteos","Sin gluten"]},
+        {n:"3.4", title:"Sorbete de mandarina al pacharán", desc:"Sorbete refrescante con pacharán navarro.", tags:["Alcohol","Sulfitos","Sin gluten"], info:"El pacharán es un licor típico navarro elaborado a partir de endrinas."}
       ]
     },
     menu: {
       sharing: [
-        {n:"1.1", title:"Patatas Bravas", desc:"Patatas crujientes con salsa brava.", price:"10€", tags:[]},
-        {n:"1.2", title:"Rabas", desc:"Calamares rebozados y fritos.", price:"11€", tags:["Gluten","Moluscos"]},
-        {n:"1.3", title:"Jamón ibérico con tumaca y tostones con AOVE", desc:"Jamón ibérico con pan tostado, tomate y aceite de oliva virgen extra.", price:"24€", tags:["Gluten"]},
-        {n:"1.4", title:"Pimientos de Padrón", desc:"Pimientos verdes fritos con sal.", price:"9€", tags:[]},
-        {n:"1.5", title:"Ración de txistorra de Arbizu", desc:"8 unidades.", price:"11€", tags:["Sulfitos"], info:"La txistorra es un embutido típico navarro elaborado tradicionalmente con carne y especias."}
+        {n:"1.1", title:"Patatas Bravas", desc:"Patatas crujientes con salsa brava.", price:"10€", tags:["Sin gluten"]},
+        {n:"1.2", title:"Rabas", desc:"Calamares rebozados y fritos.", price:"11€", tags:["Moluscos","Sin gluten"]},
+        {n:"1.3", title:"Jamón ibérico con tumaca y tostones con AOVE", desc:"Opción sin gluten sin tostones.", price:"24€", tags:["Gluten","Opción sin gluten"]},
+        {n:"1.4", title:"Pimientos de Padrón", desc:"Pimientos verdes fritos con sal.", price:"9€", tags:["Sin gluten"]},
+        {n:"1.5", title:"Ración de txistorra de Arbizu", desc:"8 unidades. Puede contener trazas de gluten.", price:"11€", tags:["Sulfitos","Puede contener trazas de gluten"], info:"La txistorra es un embutido típico navarro elaborado tradicionalmente con carne y especias."}
       ],
       sandwiches: [
         {n:"2.1", title:"Albóndigas caseras con tomate", desc:"Bocadillo de albóndigas caseras en salsa de tomate.", price:"10€", tags:["Gluten","Huevo"]},
@@ -129,8 +132,11 @@ const translations = {
     menuTitle: "À la carte",
     drinkIncluded: "Drink included",
     noPrice: "Price not shown on the digital menu",
-    includedTitle: "Includes",
-    includedText: "Coffee, beer, soft drinks, one bottle of wine for two or cider, and bread.",
+    includedTitle: "Menu information",
+    includedText: "Drink included: 1 bottle of wine or cider for every 2 people, 1 soft drink or 1 small beer, and water.",
+    glutenBreadNote: "Gluten-free bread option available.",
+    noShareNote: "Sharing the menu is not allowed.",
+    dailyAllergyNote: "For allergies and/or intolerances, please ask our staff.",
     allergensTitle: "Allergens",
     allergensWarning: "Please ask our team about any allergy or intolerance.",
     infoBtn: "More info",
@@ -144,7 +150,7 @@ const translations = {
       mainDishes: "Main dishes",
       fried: "Fried bites"
     },
-    allergens: ["Gluten","Crustaceans","Egg","Fish","Peanuts","Soy","Dairy","Nuts","Celery","Mustard","Sesame","Sulphites","Lupin","Molluscs","Alcohol","Gluten free"],
+    allergens: ["Gluten","Crustaceans","Egg","Fish","Peanuts","Soy","Dairy","Nuts","Celery","Mustard","Sesame","Sulphites","Lupin","Molluscs","Alcohol","Gluten free","Gluten-free option","May contain traces of gluten"],
     breakfast: [
       {n:"1.1", title:"Eggs with potatoes, txistorra, ham and marinated pork belly", desc:"A hearty traditional Navarre breakfast.", tags:["Egg","Sulphites"], info:"Txistorra is a typical Navarre sausage traditionally made with meat and spices."},
       {n:"1.2", title:"Ajoarriero with egg and straw potatoes", desc:"A traditional northern Spanish recipe with crispy straw potatoes.", tags:["Fish","Egg"], info:"Ajoarriero is a traditional dish made with shredded fish, garlic and vegetables."},
@@ -153,33 +159,33 @@ const translations = {
     ],
     daily: {
       starters: [
-        {n:"1.1", title:"Seasonal tomato salad with burrata", desc:"Basil oil, vinaigrette and walnuts.", tags:["Dairy","Nuts","Sulphites"]},
-        {n:"1.2", title:"Homemade Russian salad with grissini", desc:"Available without grissini.", tags:["Egg","Gluten"]},
-        {n:"1.3", title:"Navarre-style pochas beans with clams and piparras", desc:"Traditional Navarre stew.", tags:["Molluscs"], info:"Pochas are a tender variety of white bean typical of Navarre."},
+        {n:"1.1", title:"Seasonal tomato salad with burrata", desc:"Basil oil, vinaigrette and walnuts.", tags:["Dairy","Nuts","Sulphites","Gluten free"]},
+        {n:"1.2", title:"Homemade Russian salad with grissini", desc:"Gluten-free option without grissini.", tags:["Egg","Fish","Gluten","Gluten-free option"]},
+        {n:"1.3", title:"Navarre-style pochas beans with clams and piparras", desc:"Traditional Navarre stew.", tags:["Molluscs","Gluten free"], info:"Pochas are a tender variety of white bean typical of Navarre."},
         {n:"1.4", title:"Mushroom and Parmesan risotto", desc:"Creamy rice with mushrooms and Parmesan cheese.", tags:["Dairy"]},
-        {n:"1.5", title:"Homemade gazpacho with boiled egg, ham and croutons", desc:"Gluten-free option available.", tags:["Egg","Gluten","Sulphites"]}
+        {n:"1.5", title:"Homemade gazpacho with boiled egg, ham and croutons", desc:"Without croutons.", tags:["Egg","Sulphites","Gluten free"]}
       ],
       mains: [
-        {n:"2.1", title:"Beef tenderloin with Roquefort and bakery potatoes", desc:"Tenderloin served with Roquefort sauce.", tags:["Dairy"]},
-        {n:"2.2", title:"Stewed oxtail with fries", desc:"⭐ House speciality.", tags:["Sulphites"]},
-        {n:"2.3", title:"Traditional tripe with ham and chorizo", desc:"Slow-cooked traditional recipe.", tags:["Sulphites"]},
-        {n:"2.4", title:"Ajoarriero with low-temperature egg and straw potatoes", desc:"Traditional northern Spanish recipe.", tags:["Fish","Egg"], info:"Ajoarriero is a traditional dish made with shredded fish, garlic and vegetables."},
-        {n:"2.5", title:"Sea bass Orio style with bakery potatoes", desc:"Sea bass prepared in a traditional Basque style.", tags:["Fish","Sulphites"], info:"Orio style is a Basque preparation with olive oil, garlic, vinegar and chilli served over fish."}
+        {n:"2.1", title:"Beef tenderloin with Roquefort and bakery potatoes", desc:"Tenderloin served with Roquefort sauce.", tags:["Dairy","Gluten free"]},
+        {n:"2.2", title:"Stewed oxtail with fries", desc:"⭐ House speciality. Gluten-free option with bakery potatoes instead of fries.", tags:["Sulphites","Gluten-free option"]},
+        {n:"2.3", title:"Traditional tripe with ham and chorizo", desc:"Slow-cooked traditional recipe.", tags:["Sulphites","Gluten free"]},
+        {n:"2.4", title:"Ajoarriero with low-temperature egg and straw potatoes", desc:"Traditional northern Spanish recipe.", tags:["Fish","Egg","Gluten free"], info:"Ajoarriero is a traditional dish made with shredded fish, garlic and vegetables."},
+        {n:"2.5", title:"Sea bass Orio style with bakery potatoes", desc:"Sea bass prepared in a traditional Basque style.", tags:["Fish","Sulphites","Gluten free"], info:"Orio style is a Basque preparation with olive oil, garlic, vinegar and chilli served over fish."}
       ],
       desserts: [
-        {n:"3.1", title:"Ultzama curd with honey and walnuts", desc:"Traditional Navarre dessert.", tags:["Dairy","Nuts"], info:"Ultzama is a Navarre valley known for its dairy products and traditional curd."},
-        {n:"3.2", title:"Creamy cheesecake with red berries and Lotus crumble", desc:"Creamy cheese dessert with red berries and Lotus biscuit.", tags:["Dairy","Gluten","Soy"]},
-        {n:"3.3", title:"Homemade rice pudding with cinnamon", desc:"Traditional slow-cooked dessert.", tags:["Dairy"]},
-        {n:"3.4", title:"Mandarin sorbet with pacharán", desc:"Refreshing sorbet with Navarre pacharán.", tags:["Alcohol","Sulphites"], info:"Pacharán is a typical Navarre liqueur made from sloe berries."}
+        {n:"3.1", title:"Ultzama curd with honey and walnuts", desc:"Traditional Navarre dessert.", tags:["Dairy","Nuts","Gluten free"], info:"Ultzama is a Navarre valley known for its dairy products and traditional curd."},
+        {n:"3.2", title:"Creamy cheesecake with red berries and Lotus crumble", desc:"Gluten-free option without Lotus biscuit.", tags:["Dairy","Gluten","Soy","Gluten-free option"]},
+        {n:"3.3", title:"Homemade rice pudding with cinnamon", desc:"Traditional slow-cooked dessert.", tags:["Dairy","Gluten free"]},
+        {n:"3.4", title:"Mandarin sorbet with pacharán", desc:"Refreshing sorbet with Navarre pacharán.", tags:["Alcohol","Sulphites","Gluten free"], info:"Pacharán is a typical Navarre liqueur made from sloe berries."}
       ]
     },
     menu: {
       sharing: [
-        {n:"1.1", title:"Patatas bravas", desc:"Crispy potatoes with spicy brava sauce.", price:"10€", tags:[]},
-        {n:"1.2", title:"Fried squid strips", desc:"Battered and fried squid.", price:"11€", tags:["Gluten","Molluscs"]},
-        {n:"1.3", title:"Iberian ham with tomato bread and EVOO toast", desc:"Iberian ham with toasted bread, tomato and extra virgin olive oil.", price:"24€", tags:["Gluten"]},
-        {n:"1.4", title:"Padrón peppers", desc:"Fried green peppers with salt.", price:"9€", tags:[]},
-        {n:"1.5", title:"Arbizu txistorra portion", desc:"8 pieces.", price:"11€", tags:["Sulphites"], info:"Txistorra is a typical Navarre sausage traditionally made with meat and spices."}
+        {n:"1.1", title:"Patatas bravas", desc:"Crispy potatoes with spicy brava sauce.", price:"10€", tags:["Gluten free"]},
+        {n:"1.2", title:"Fried squid strips", desc:"Battered and fried squid.", price:"11€", tags:["Molluscs","Gluten free"]},
+        {n:"1.3", title:"Iberian ham with tomato bread and EVOO toast", desc:"Gluten-free option without toast.", price:"24€", tags:["Gluten","Gluten-free option"]},
+        {n:"1.4", title:"Padrón peppers", desc:"Fried green peppers with salt.", price:"9€", tags:["Gluten free"]},
+        {n:"1.5", title:"Arbizu txistorra portion", desc:"8 pieces. May contain traces of gluten.", price:"11€", tags:["Sulphites","May contain traces of gluten"], info:"Txistorra is a typical Navarre sausage traditionally made with meat and spices."}
       ],
       sandwiches: [
         {n:"2.1", title:"Homemade meatballs with tomato", desc:"Sandwich with homemade meatballs in tomato sauce.", price:"10€", tags:["Gluten","Egg"]},
@@ -224,8 +230,11 @@ const translations = {
     menuTitle: "Carte",
     drinkIncluded: "Boisson incluse",
     noPrice: "Prix non affiché sur la carte digitale",
-    includedTitle: "Comprend",
-    includedText: "Café, bière, boissons sans alcool, bouteille de vin pour deux ou cidre, et pain.",
+    includedTitle: "Informations du menu",
+    includedText: "Boisson incluse : 1 bouteille de vin ou de cidre pour 2 personnes, 1 boisson sans alcool ou 1 petite bière, et de l’eau.",
+    glutenBreadNote: "Option pain sans gluten disponible.",
+    noShareNote: "Il n’est pas permis de partager le menu.",
+    dailyAllergyNote: "Pour toute allergie et/ou intolérance, veuillez consulter notre personnel.",
     allergensTitle: "Allergènes",
     allergensWarning: "Consultez notre équipe en cas d’allergie ou d’intolérance.",
     infoBtn: "Plus d’info",
@@ -239,7 +248,7 @@ const translations = {
       mainDishes: "Plats principaux",
       fried: "Fritures"
     },
-    allergens: ["Gluten","Crustacés","Œuf","Poisson","Arachides","Soja","Produits laitiers","Fruits à coque","Céleri","Moutarde","Sésame","Sulfites","Lupin","Mollusques","Alcool","Sans gluten"],
+    allergens: ["Gluten","Crustacés","Œuf","Poisson","Arachides","Soja","Produits laitiers","Fruits à coque","Céleri","Moutarde","Sésame","Sulfites","Lupin","Mollusques","Alcool","Sans gluten","Option sans gluten","Peut contenir des traces de gluten"],
     breakfast: [
       {n:"1.1", title:"Œufs avec pommes de terre, txistorra, jambon et poitrine marinée", desc:"Déjeuner traditionnel navarrais copieux.", tags:["Œuf","Sulfites"], info:"La txistorra est une saucisse typique de Navarre, préparée traditionnellement avec de la viande et des épices."},
       {n:"1.2", title:"Ajoarriero avec œuf et pommes paille", desc:"Recette traditionnelle du nord avec pommes paille croustillantes.", tags:["Poisson","Œuf"], info:"L’ajoarriero est une recette traditionnelle à base de poisson émietté, d’ail et de légumes."},
@@ -248,33 +257,33 @@ const translations = {
     ],
     daily: {
       starters: [
-        {n:"1.1", title:"Salade de tomates de saison avec burrata", desc:"Huile de basilic, vinaigrette et noix.", tags:["Produits laitiers","Fruits à coque","Sulfites"]},
-        {n:"1.2", title:"Salade russe maison avec gressins", desc:"Option sans gressins disponible.", tags:["Œuf","Gluten"]},
-        {n:"1.3", title:"Pochas à la navarraise avec palourdes et piparras", desc:"Ragoût traditionnel navarrais.", tags:["Mollusques"], info:"Les pochas sont une variété de haricot blanc tendre typique de Navarre."},
+        {n:"1.1", title:"Salade de tomates de saison avec burrata", desc:"Huile de basilic, vinaigrette et noix.", tags:["Produits laitiers","Fruits à coque","Sulfites","Sans gluten"]},
+        {n:"1.2", title:"Salade russe maison avec gressins", desc:"Option sans gluten sans gressins.", tags:["Œuf","Poisson","Gluten","Option sans gluten"]},
+        {n:"1.3", title:"Pochas à la navarraise avec palourdes et piparras", desc:"Ragoût traditionnel navarrais.", tags:["Mollusques","Sans gluten"], info:"Les pochas sont une variété de haricot blanc tendre typique de Navarre."},
         {n:"1.4", title:"Risotto aux champignons et parmesan", desc:"Riz crémeux aux champignons et parmesan.", tags:["Produits laitiers"]},
-        {n:"1.5", title:"Gaspacho maison avec œuf dur, jambon et croûtons", desc:"Option sans gluten disponible.", tags:["Œuf","Gluten","Sulfites"]}
+        {n:"1.5", title:"Gaspacho maison avec œuf dur, jambon et croûtons", desc:"Sans croûtons.", tags:["Œuf","Sulfites","Sans gluten"]}
       ],
       mains: [
-        {n:"2.1", title:"Filet de bœuf au roquefort et pommes boulangères", desc:"Filet servi avec sauce roquefort.", tags:["Produits laitiers"]},
-        {n:"2.2", title:"Queue de bœuf mijotée avec frites", desc:"⭐ Spécialité de la maison.", tags:["Sulfites"]},
-        {n:"2.3", title:"Tripes traditionnelles avec jambon et chorizo", desc:"Recette traditionnelle mijotée.", tags:["Sulfites"]},
-        {n:"2.4", title:"Ajoarriero avec œuf basse température et pommes paille", desc:"Recette traditionnelle du nord.", tags:["Poisson","Œuf"], info:"L’ajoarriero est une recette traditionnelle à base de poisson émietté, d’ail et de légumes."},
-        {n:"2.5", title:"Bar style Orio avec pommes boulangères", desc:"Bar préparé dans un style basque traditionnel.", tags:["Poisson","Sulfites"], info:"Le style Orio est une préparation basque avec huile, ail, vinaigre et piment servie sur le poisson."}
+        {n:"2.1", title:"Filet de bœuf au roquefort et pommes boulangères", desc:"Filet servi avec sauce roquefort.", tags:["Produits laitiers","Sans gluten"]},
+        {n:"2.2", title:"Queue de bœuf mijotée avec frites", desc:"⭐ Spécialité de la maison. Option sans gluten avec pommes boulangères à la place des frites.", tags:["Sulfites","Option sans gluten"]},
+        {n:"2.3", title:"Tripes traditionnelles avec jambon et chorizo", desc:"Recette traditionnelle mijotée.", tags:["Sulfites","Sans gluten"]},
+        {n:"2.4", title:"Ajoarriero avec œuf basse température et pommes paille", desc:"Recette traditionnelle du nord.", tags:["Poisson","Œuf","Sans gluten"], info:"L’ajoarriero est une recette traditionnelle à base de poisson émietté, d’ail et de légumes."},
+        {n:"2.5", title:"Bar style Orio avec pommes boulangères", desc:"Bar préparé dans un style basque traditionnel.", tags:["Poisson","Sulfites","Sans gluten"], info:"Le style Orio est une préparation basque avec huile, ail, vinaigre et piment servie sur le poisson."}
       ],
       desserts: [
-        {n:"3.1", title:"Caillé d’Ultzama avec miel et noix", desc:"Dessert traditionnel navarrais.", tags:["Produits laitiers","Fruits à coque"], info:"Ultzama est une vallée de Navarre connue pour ses produits laitiers et son caillé traditionnel."},
-        {n:"3.2", title:"Crémeux de fromage aux fruits rouges et éclats de Lotus", desc:"Dessert crémeux au fromage, fruits rouges et biscuit Lotus.", tags:["Produits laitiers","Gluten","Soja"]},
-        {n:"3.3", title:"Riz au lait maison à la cannelle", desc:"Dessert traditionnel mijoté.", tags:["Produits laitiers"]},
-        {n:"3.4", title:"Sorbet mandarine au pacharán", desc:"Sorbet rafraîchissant au pacharán navarrais.", tags:["Alcool","Sulfites"], info:"Le pacharán est une liqueur typique de Navarre élaborée à partir de prunelles."}
+        {n:"3.1", title:"Caillé d’Ultzama avec miel et noix", desc:"Dessert traditionnel navarrais.", tags:["Produits laitiers","Fruits à coque","Sans gluten"], info:"Ultzama est une vallée de Navarre connue pour ses produits laitiers et son caillé traditionnel."},
+        {n:"3.2", title:"Crémeux de fromage aux fruits rouges et éclats de Lotus", desc:"Option sans gluten sans biscuit Lotus.", tags:["Produits laitiers","Gluten","Soja","Option sans gluten"]},
+        {n:"3.3", title:"Riz au lait maison à la cannelle", desc:"Dessert traditionnel mijoté.", tags:["Produits laitiers","Sans gluten"]},
+        {n:"3.4", title:"Sorbet mandarine au pacharán", desc:"Sorbet rafraîchissant au pacharán navarrais.", tags:["Alcool","Sulfites","Sans gluten"], info:"Le pacharán est une liqueur typique de Navarre élaborée à partir de prunelles."}
       ]
     },
     menu: {
       sharing: [
-        {n:"1.1", title:"Patatas bravas", desc:"Pommes de terre croustillantes avec sauce brava.", price:"10€", tags:[]},
-        {n:"1.2", title:"Rabas", desc:"Calamars panés et frits.", price:"11€", tags:["Gluten","Mollusques"]},
-        {n:"1.3", title:"Jambon ibérique avec pain tomate et AOVE", desc:"Jambon ibérique avec pain grillé, tomate et huile d’olive vierge extra.", price:"24€", tags:["Gluten"]},
-        {n:"1.4", title:"Piments de Padrón", desc:"Petits piments verts frits au sel.", price:"9€", tags:[]},
-        {n:"1.5", title:"Portion de txistorra d’Arbizu", desc:"8 pièces.", price:"11€", tags:["Sulfites"], info:"La txistorra est une saucisse typique de Navarre, préparée traditionnellement avec de la viande et des épices."}
+        {n:"1.1", title:"Patatas bravas", desc:"Pommes de terre croustillantes avec sauce brava.", price:"10€", tags:["Sans gluten"]},
+        {n:"1.2", title:"Rabas", desc:"Calamars panés et frits.", price:"11€", tags:["Mollusques","Sans gluten"]},
+        {n:"1.3", title:"Jambon ibérique avec pain tomate et AOVE", desc:"Option sans gluten sans toasts.", price:"24€", tags:["Gluten","Option sans gluten"]},
+        {n:"1.4", title:"Piments de Padrón", desc:"Petits piments verts frits au sel.", price:"9€", tags:["Sans gluten"]},
+        {n:"1.5", title:"Portion de txistorra d’Arbizu", desc:"8 pièces. Peut contenir des traces de gluten.", price:"11€", tags:["Sulfites","Peut contenir des traces de gluten"], info:"La txistorra est une saucisse typique de Navarre, préparée traditionnellement avec de la viande et des épices."}
       ],
       sandwiches: [
         {n:"2.1", title:"Boulettes maison à la tomate", desc:"Sandwich aux boulettes maison à la sauce tomate.", price:"10€", tags:["Gluten","Œuf"]},
@@ -383,7 +392,7 @@ function renderContent(){
 
   menuContent.innerHTML = `
     ${renderNumberedCategories([
-      {title: t.categories.sharing, items: t.menu.sharing, start: 20},
+      {title: t.categories.sharing, items: t.menu.sharing, start: 30},
       {title: t.categories.sandwiches, items: t.menu.sandwiches},
       {title: t.categories.mainDishes, items: t.menu.mainDishes},
       {title: t.categories.fried, items: t.menu.fried},

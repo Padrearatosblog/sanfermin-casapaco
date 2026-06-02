@@ -322,6 +322,24 @@ body{
   margin-bottom:.5rem;
 }
 
+.included-box p{
+  color:#f3eadb;
+  line-height:1.55;
+}
+
+.included-list{
+  display:grid;
+  gap:.55rem;
+  margin-top:1rem;
+  padding-left:1.1rem;
+  color:#d8cbb8;
+  line-height:1.45;
+}
+
+.included-list li::marker{
+  color:#d9ba7c;
+}
+
 .allergens-section{
   padding:3rem 1.1rem;
   background:#0b0b0b;
