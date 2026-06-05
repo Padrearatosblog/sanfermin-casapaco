@@ -98,7 +98,7 @@ const translations = {
       ],
       mainDishes: [
         {n:"3.1", title:"Albóndigas con tomate y patatas fritas", desc:"Plato de albóndigas caseras con tomate.", price:"17€", tags:["Huevo","Sin gluten"]},
-        {n:"3.2", title:"Rabo estofado con patatas fritas caseras", desc:"⭐ Especialidad de la casa.", price:"", tags:["Sulfitos"]},
+        {n:"3.2", title:"Rabo estofado con patatas fritas caseras", desc:"⭐ Especialidad de la casa.", price:"22€", tags:["Sulfitos"]},
         {n:"3.3", title:"Solomillo de vaca con roquefort y patatas panaderas", desc:"Solomillo acompañado de salsa roquefort y patatas panaderas.", price:"24€", tags:["Lácteos"]},
         {n:"3.4", title:"Callos estilo tradicional con jamón y chorizo", desc:"Receta tradicional cocinada lentamente.", price:"20€", tags:["Sulfitos"]},
         {n:"3.5", title:"Ajoarriero con huevo a baja temperatura y patatas paja", desc:"Receta tradicional con huevo y patatas paja.", price:"22€", tags:["Pescado","Huevo"], info:"El ajoarriero es una receta tradicional elaborada con pescado desmigado, ajo y verduras."},
@@ -196,7 +196,7 @@ const translations = {
       ],
       mainDishes: [
         {n:"3.1", title:"Meatballs with tomato and fries", desc:"Homemade meatballs with tomato sauce.", price:"17€", tags:["Egg","Gluten free"]},
-        {n:"3.2", title:"Stewed oxtail with homemade fries", desc:"⭐ House speciality.", price:"", tags:["Sulphites"]},
+        {n:"3.2", title:"Stewed oxtail with homemade fries", desc:"⭐ House speciality.", price:"22€", tags:["Sulphites"]},
         {n:"3.3", title:"Beef tenderloin with Roquefort and bakery potatoes", desc:"Tenderloin served with Roquefort sauce and bakery potatoes.", price:"24€", tags:["Dairy"]},
         {n:"3.4", title:"Traditional tripe with ham and chorizo", desc:"Slow-cooked traditional recipe.", price:"20€", tags:["Sulphites"]},
         {n:"3.5", title:"Ajoarriero with low-temperature egg and straw potatoes", desc:"Traditional recipe with egg and straw potatoes.", price:"22€", tags:["Fish","Egg"], info:"Ajoarriero is a traditional dish made with shredded fish, garlic and vegetables."},
@@ -294,7 +294,7 @@ const translations = {
       ],
       mainDishes: [
         {n:"3.1", title:"Boulettes à la tomate avec frites", desc:"Boulettes maison à la sauce tomate.", price:"17€", tags:["Œuf","Sans gluten"]},
-        {n:"3.2", title:"Queue de bœuf mijotée avec frites maison", desc:"⭐ Spécialité de la maison.", price:"", tags:["Sulfites"]},
+        {n:"3.2", title:"Queue de bœuf mijotée avec frites maison", desc:"⭐ Spécialité de la maison.", price:"22€", tags:["Sulfites"]},
         {n:"3.3", title:"Filet de bœuf au roquefort et pommes boulangères", desc:"Filet servi avec sauce roquefort et pommes boulangères.", price:"24€", tags:["Produits laitiers"]},
         {n:"3.4", title:"Tripes traditionnelles avec jambon et chorizo", desc:"Recette traditionnelle mijotée.", price:"20€", tags:["Sulfites"]},
         {n:"3.5", title:"Ajoarriero avec œuf basse température et pommes paille", desc:"Recette traditionnelle avec œuf et pommes paille.", price:"22€", tags:["Poisson","Œuf"], info:"L’ajoarriero est une recette traditionnelle à base de poisson émietté, d’ail et de légumes."},
