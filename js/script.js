@@ -83,26 +83,26 @@ const translations = {
     },
     menu: {
       sharing: [
-        {n:"1.1", title:"Patatas Bravas", desc:"Patatas crujientes con salsa brava.", price:"10€", tags:["Sin gluten"]},
-        {n:"1.2", title:"Rabas", desc:"Calamares rebozados y fritos.", price:"11€", tags:["Moluscos","Sin gluten"]},
+        {n:"1.1", title:"Patatas Bravas", desc:"Patatas crujientes con salsa brava.", price:"10€", tags:["Gluten"]},
+        {n:"1.2", title:"Rabas", desc:"Calamares rebozados y fritos.", price:"11€", tags:["Moluscos","Gluten"]},
         {n:"1.3", title:"Jamón ibérico con tumaca y tostones con AOVE", desc:"Opción sin gluten sin tostones.", price:"24€", tags:["Gluten","Opción sin gluten"]},
-        {n:"1.4", title:"Pimientos de Padrón", desc:"Pimientos verdes fritos con sal.", price:"9€", tags:["Sin gluten"]},
-        {n:"1.5", title:"Ración de txistorra de Arbizu", desc:"8 unidades. Puede contener trazas de gluten.", price:"11€", tags:["Sulfitos","Puede contener trazas de gluten"], info:"La txistorra es un embutido típico navarro elaborado tradicionalmente con carne y especias."}
+        {n:"1.4", title:"Pimientos de Padrón", desc:"Pimientos verdes fritos con sal.", price:"9€", tags:["Gluten"]},
+        {n:"1.5", title:"Ración de txistorra de Arbizu", desc:"8 unidades. Puede contener trazas de gluten.", price:"11€", tags:["Sulfitos","Gluten","Puede contener trazas de gluten"], info:"La txistorra es un embutido típico navarro elaborado tradicionalmente con carne y especias."}
       ],
       sandwiches: [
         {n:"2.1", title:"Albóndigas caseras con tomate", desc:"Bocadillo de albóndigas caseras en salsa de tomate.", price:"10€", tags:["Gluten","Huevo"]},
         {n:"2.2", title:"Ajoarriero", desc:"Bocadillo de receta tradicional del norte.", price:"11,50€", tags:["Gluten","Pescado"], info:"El ajoarriero es una receta tradicional elaborada con pescado desmigado, ajo y verduras."},
         {n:"2.3", title:"Lomo, queso y piquillos", desc:"Bocadillo de lomo con queso y pimientos del piquillo.", price:"10€", tags:["Gluten","Lácteos"]},
         {n:"2.4", title:"Jamón pasado con tomate", desc:"Bocadillo de jamón pasado con tomate.", price:"10€", tags:["Gluten"]},
-        {n:"2.5", title:"Hamburguesa mixta", desc:"Con queso, lechuga, tomate, salsa brava y patatas fritas caseras.", price:"16€", tags:["Gluten","Lácteos","Huevo"]}
+        {n:"2.5", title:"Hamburguesa mixta", desc:"Con queso, lechuga, tomate, salsa brava y patatas fritas caseras. Opción con pan sin gluten.", price:"16€", tags:["Gluten","Lácteos","Opción sin gluten"]}
       ],
       mainDishes: [
-        {n:"3.1", title:"Albóndigas con tomate y patatas fritas", desc:"Plato de albóndigas caseras con tomate.", price:"17€", tags:["Huevo","Sin gluten"]},
-        {n:"3.2", title:"Rabo estofado con patatas fritas caseras", desc:"⭐ Especialidad de la casa.", price:"22€", tags:["Sulfitos"]},
-        {n:"3.3", title:"Solomillo de vaca con roquefort y patatas panaderas", desc:"Solomillo acompañado de salsa roquefort y patatas panaderas.", price:"24€", tags:["Lácteos"]},
-        {n:"3.4", title:"Callos estilo tradicional con jamón y chorizo", desc:"Receta tradicional cocinada lentamente.", price:"20€", tags:["Sulfitos"]},
-        {n:"3.5", title:"Ajoarriero con huevo a baja temperatura y patatas paja", desc:"Receta tradicional con huevo y patatas paja.", price:"22€", tags:["Pescado","Huevo"], info:"El ajoarriero es una receta tradicional elaborada con pescado desmigado, ajo y verduras."},
-        {n:"3.6", title:"Pescado fresco del día con patatas panaderas", desc:"Pescado fresco según mercado.", price:"20€", tags:["Pescado"]}
+        {n:"3.1", title:"Albóndigas con tomate y patatas fritas", desc:"Plato de albóndigas caseras con tomate. Opción sin gluten con patatas panaderas.", price:"17€", tags:["Gluten","Huevo","Opción sin gluten"]},
+        {n:"3.2", title:"Rabo estofado con patatas fritas caseras", desc:"⭐ Especialidad de la casa. Opción sin gluten con patatas panaderas.", price:"22€", tags:["Gluten","Sulfitos","Opción sin gluten"]},
+        {n:"3.3", title:"Solomillo de vaca con roquefort y patatas panaderas", desc:"Solomillo acompañado de salsa roquefort y patatas panaderas.", price:"24€", tags:["Lácteos","Sin gluten"]},
+        {n:"3.4", title:"Callos estilo tradicional con jamón y chorizo", desc:"Receta tradicional cocinada lentamente.", price:"20€", tags:["Gluten","Sin gluten"]},
+        {n:"3.5", title:"Ajoarriero con huevo a baja temperatura y patatas paja", desc:"Receta tradicional con huevo y patatas paja.", price:"22€", tags:["Pescado","Huevo","Sin gluten"], info:"El ajoarriero es una receta tradicional elaborada con pescado desmigado, ajo y verduras."},
+        {n:"3.6", title:"Pescado fresco del día con patatas panaderas", desc:"Pescado fresco según mercado.", price:"20€", tags:["Pescado","Sin gluten"]}
       ],
       fried: [
         {n:"4.1", title:"Croqueta de jamón", desc:"Frito casero.", price:"3,20€/unidad", tags:["Gluten","Lácteos","Huevo"]},
@@ -181,26 +181,26 @@ const translations = {
     },
     menu: {
       sharing: [
-        {n:"1.1", title:"Patatas bravas", desc:"Crispy potatoes with spicy brava sauce.", price:"10€", tags:["Gluten free"]},
-        {n:"1.2", title:"Fried squid strips", desc:"Battered and fried squid.", price:"11€", tags:["Molluscs","Gluten free"]},
+        {n:"1.1", title:"Patatas bravas", desc:"Crispy potatoes with spicy brava sauce.", price:"10€", tags:["Gluten"]},
+        {n:"1.2", title:"Fried squid strips", desc:"Battered and fried squid.", price:"11€", tags:["Molluscs","Gluten"]},
         {n:"1.3", title:"Iberian ham with tomato bread and EVOO toast", desc:"Gluten-free option without toast.", price:"24€", tags:["Gluten","Gluten-free option"]},
-        {n:"1.4", title:"Padrón peppers", desc:"Fried green peppers with salt.", price:"9€", tags:["Gluten free"]},
-        {n:"1.5", title:"Arbizu txistorra portion", desc:"8 pieces. May contain traces of gluten.", price:"11€", tags:["Sulphites","May contain traces of gluten"], info:"Txistorra is a typical Navarre sausage traditionally made with meat and spices."}
+        {n:"1.4", title:"Padrón peppers", desc:"Fried green peppers with salt.", price:"9€", tags:["Gluten"]},
+        {n:"1.5", title:"Arbizu txistorra portion", desc:"8 pieces. May contain traces of gluten.", price:"11€", tags:["Sulphites","Gluten","May contain traces of gluten"], info:"Txistorra is a typical Navarre sausage traditionally made with meat and spices."}
       ],
       sandwiches: [
         {n:"2.1", title:"Homemade meatballs with tomato", desc:"Sandwich with homemade meatballs in tomato sauce.", price:"10€", tags:["Gluten","Egg"]},
         {n:"2.2", title:"Ajoarriero sandwich", desc:"Traditional northern Spanish recipe.", price:"11.50€", tags:["Gluten","Fish"], info:"Ajoarriero is a traditional dish made with shredded fish, garlic and vegetables."},
         {n:"2.3", title:"Pork loin, cheese and piquillo peppers", desc:"Sandwich with pork loin, melted cheese and piquillo peppers.", price:"10€", tags:["Gluten","Dairy"]},
         {n:"2.4", title:"Seared ham with tomato", desc:"Ham sandwich with tomato.", price:"10€", tags:["Gluten"]},
-        {n:"2.5", title:"Mixed burger", desc:"With cheese, lettuce, tomato, brava sauce and homemade fries.", price:"16€", tags:["Gluten","Dairy","Egg"]}
+        {n:"2.5", title:"Mixed burger", desc:"With cheese, lettuce, tomato, brava sauce and homemade fries. Gluten-free bread option.", price:"16€", tags:["Gluten","Dairy","Gluten-free option"]}
       ],
       mainDishes: [
-        {n:"3.1", title:"Meatballs with tomato and fries", desc:"Homemade meatballs with tomato sauce.", price:"17€", tags:["Egg","Gluten free"]},
-        {n:"3.2", title:"Stewed oxtail with homemade fries", desc:"⭐ House speciality.", price:"22€", tags:["Sulphites"]},
-        {n:"3.3", title:"Beef tenderloin with Roquefort and bakery potatoes", desc:"Tenderloin served with Roquefort sauce and bakery potatoes.", price:"24€", tags:["Dairy"]},
-        {n:"3.4", title:"Traditional tripe with ham and chorizo", desc:"Slow-cooked traditional recipe.", price:"20€", tags:["Sulphites"]},
-        {n:"3.5", title:"Ajoarriero with low-temperature egg and straw potatoes", desc:"Traditional recipe with egg and straw potatoes.", price:"22€", tags:["Fish","Egg"], info:"Ajoarriero is a traditional dish made with shredded fish, garlic and vegetables."},
-        {n:"3.6", title:"Fresh fish of the day with bakery potatoes", desc:"Fresh market fish.", price:"20€", tags:["Fish"]}
+        {n:"3.1", title:"Meatballs with tomato and fries", desc:"Homemade meatballs with tomato sauce. Gluten-free option with bakery potatoes.", price:"17€", tags:["Gluten","Egg","Gluten-free option"]},
+        {n:"3.2", title:"Stewed oxtail with homemade fries", desc:"⭐ House speciality. Gluten-free option with bakery potatoes.", price:"22€", tags:["Gluten","Sulphites","Gluten-free option"]},
+        {n:"3.3", title:"Beef tenderloin with Roquefort and bakery potatoes", desc:"Tenderloin served with Roquefort sauce and bakery potatoes.", price:"24€", tags:["Dairy","Gluten free"]},
+        {n:"3.4", title:"Traditional tripe with ham and chorizo", desc:"Slow-cooked traditional recipe.", price:"20€", tags:["Gluten","Gluten free"]},
+        {n:"3.5", title:"Ajoarriero with low-temperature egg and straw potatoes", desc:"Traditional recipe with egg and straw potatoes.", price:"22€", tags:["Fish","Egg","Gluten free"], info:"Ajoarriero is a traditional dish made with shredded fish, garlic and vegetables."},
+        {n:"3.6", title:"Fresh fish of the day with bakery potatoes", desc:"Fresh market fish.", price:"20€", tags:["Fish","Gluten free"]}
       ],
       fried: [
         {n:"4.1", title:"Ham croquette", desc:"Homemade fried bite.", price:"3.20€/unit", tags:["Gluten","Dairy","Egg"]},
@@ -279,26 +279,26 @@ const translations = {
     },
     menu: {
       sharing: [
-        {n:"1.1", title:"Patatas bravas", desc:"Pommes de terre croustillantes avec sauce brava.", price:"10€", tags:["Sans gluten"]},
-        {n:"1.2", title:"Rabas", desc:"Calamars panés et frits.", price:"11€", tags:["Mollusques","Sans gluten"]},
+        {n:"1.1", title:"Patatas bravas", desc:"Pommes de terre croustillantes avec sauce brava.", price:"10€", tags:["Gluten"]},
+        {n:"1.2", title:"Rabas", desc:"Calamars panés et frits.", price:"11€", tags:["Mollusques","Gluten"]},
         {n:"1.3", title:"Jambon ibérique avec pain tomate et AOVE", desc:"Option sans gluten sans toasts.", price:"24€", tags:["Gluten","Option sans gluten"]},
-        {n:"1.4", title:"Piments de Padrón", desc:"Petits piments verts frits au sel.", price:"9€", tags:["Sans gluten"]},
-        {n:"1.5", title:"Portion de txistorra d’Arbizu", desc:"8 pièces. Peut contenir des traces de gluten.", price:"11€", tags:["Sulfites","Peut contenir des traces de gluten"], info:"La txistorra est une saucisse typique de Navarre, préparée traditionnellement avec de la viande et des épices."}
+        {n:"1.4", title:"Piments de Padrón", desc:"Petits piments verts frits au sel.", price:"9€", tags:["Gluten"]},
+        {n:"1.5", title:"Portion de txistorra d’Arbizu", desc:"8 pièces. Peut contenir des traces de gluten.", price:"11€", tags:["Sulfites","Gluten","Peut contenir des traces de gluten"], info:"La txistorra est une saucisse typique de Navarre, préparée traditionnellement avec de la viande et des épices."}
       ],
       sandwiches: [
         {n:"2.1", title:"Boulettes maison à la tomate", desc:"Sandwich aux boulettes maison à la sauce tomate.", price:"10€", tags:["Gluten","Œuf"]},
         {n:"2.2", title:"Sandwich d’ajoarriero", desc:"Recette traditionnelle du nord.", price:"11,50€", tags:["Gluten","Poisson"], info:"L’ajoarriero est une recette traditionnelle à base de poisson émietté, d’ail et de légumes."},
         {n:"2.3", title:"Longe, fromage et piquillos", desc:"Sandwich à la longe, fromage fondu et poivrons piquillo.", price:"10€", tags:["Gluten","Produits laitiers"]},
         {n:"2.4", title:"Jambon poêlé à la tomate", desc:"Sandwich au jambon et tomate.", price:"10€", tags:["Gluten"]},
-        {n:"2.5", title:"Burger mixte", desc:"Avec fromage, laitue, tomate, sauce brava et frites maison.", price:"16€", tags:["Gluten","Produits laitiers","Œuf"]}
+        {n:"2.5", title:"Burger mixte", desc:"Avec fromage, laitue, tomate, sauce brava et frites maison. Option avec pain sans gluten.", price:"16€", tags:["Gluten","Produits laitiers","Option sans gluten"]}
       ],
       mainDishes: [
-        {n:"3.1", title:"Boulettes à la tomate avec frites", desc:"Boulettes maison à la sauce tomate.", price:"17€", tags:["Œuf","Sans gluten"]},
-        {n:"3.2", title:"Queue de bœuf mijotée avec frites maison", desc:"⭐ Spécialité de la maison.", price:"22€", tags:["Sulfites"]},
-        {n:"3.3", title:"Filet de bœuf au roquefort et pommes boulangères", desc:"Filet servi avec sauce roquefort et pommes boulangères.", price:"24€", tags:["Produits laitiers"]},
-        {n:"3.4", title:"Tripes traditionnelles avec jambon et chorizo", desc:"Recette traditionnelle mijotée.", price:"20€", tags:["Sulfites"]},
-        {n:"3.5", title:"Ajoarriero avec œuf basse température et pommes paille", desc:"Recette traditionnelle avec œuf et pommes paille.", price:"22€", tags:["Poisson","Œuf"], info:"L’ajoarriero est une recette traditionnelle à base de poisson émietté, d’ail et de légumes."},
-        {n:"3.6", title:"Poisson frais du jour avec pommes boulangères", desc:"Poisson frais selon le marché.", price:"20€", tags:["Poisson"]}
+        {n:"3.1", title:"Boulettes à la tomate avec frites", desc:"Boulettes maison à la sauce tomate. Option sans gluten avec pommes boulangères.", price:"17€", tags:["Gluten","Œuf","Option sans gluten"]},
+        {n:"3.2", title:"Queue de bœuf mijotée avec frites maison", desc:"⭐ Spécialité de la maison. Option sans gluten avec pommes boulangères.", price:"22€", tags:["Gluten","Sulfites","Option sans gluten"]},
+        {n:"3.3", title:"Filet de bœuf au roquefort et pommes boulangères", desc:"Filet servi avec sauce roquefort et pommes boulangères.", price:"24€", tags:["Produits laitiers","Sans gluten"]},
+        {n:"3.4", title:"Tripes traditionnelles avec jambon et chorizo", desc:"Recette traditionnelle mijotée.", price:"20€", tags:["Gluten","Sans gluten"]},
+        {n:"3.5", title:"Ajoarriero avec œuf basse température et pommes paille", desc:"Recette traditionnelle avec œuf et pommes paille.", price:"22€", tags:["Poisson","Œuf","Sans gluten"], info:"L’ajoarriero est une recette traditionnelle à base de poisson émietté, d’ail et de légumes."},
+        {n:"3.6", title:"Poisson frais du jour avec pommes boulangères", desc:"Poisson frais selon le marché.", price:"20€", tags:["Poisson","Sans gluten"]}
       ],
       fried: [
         {n:"4.1", title:"Croquette de jambon", desc:"Friture maison.", price:"3,20€/unité", tags:["Gluten","Produits laitiers","Œuf"]},
