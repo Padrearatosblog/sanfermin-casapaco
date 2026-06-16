@@ -1,4 +1,4 @@
-const translations = {
+﻿const translations = {
   es: {
     heroKicker: "San Fermín · Pamplona",
     heroSubtitle: "Almuerzos · Menú del día · Carta",
@@ -48,9 +48,9 @@ const translations = {
       },
       {
         n:"1.3",
-        title:"Callos a la navarra",
-        desc:"Receta tradicional cocinada lentamente con jamón y chorizo.",
-        tags:["Sulfitos"]
+        title:"Albóndigas con patatas fritas",
+        desc:"Albóndigas caseras con tomate y patatas fritas.",
+        tags:["Gluten"]
       },
       {
         n:"1.4",
@@ -154,7 +154,7 @@ const translations = {
     breakfast: [
       {n:"1.1", title:"Eggs with potatoes, txistorra, ham and marinated pork belly", desc:"A hearty traditional Navarre breakfast.", tags:["Egg","Sulphites"], info:"Txistorra is a typical Navarre sausage traditionally made with meat and spices."},
       {n:"1.2", title:"Ajoarriero with egg and straw potatoes", desc:"A traditional northern Spanish recipe with crispy straw potatoes.", tags:["Fish","Egg"], info:"Ajoarriero is a traditional dish made with shredded fish, garlic and vegetables."},
-      {n:"1.3", title:"Navarre-style tripe", desc:"Traditional slow-cooked recipe with ham and chorizo.", tags:["Sulphites"]},
+      {n:"1.3", title:"Meatballs with fries", desc:"Homemade meatballs with tomato sauce and fries.", tags:["Gluten"]},
       {n:"1.4", title:"Stewed oxtail with potatoes", desc:"House speciality, slow-cooked until tender.", tags:["Sulphites"]}
     ],
     daily: {
@@ -252,7 +252,7 @@ const translations = {
     breakfast: [
       {n:"1.1", title:"Œufs avec pommes de terre, txistorra, jambon et poitrine marinée", desc:"Déjeuner traditionnel navarrais copieux.", tags:["Œuf","Sulfites"], info:"La txistorra est une saucisse typique de Navarre, préparée traditionnellement avec de la viande et des épices."},
       {n:"1.2", title:"Ajoarriero avec œuf et pommes paille", desc:"Recette traditionnelle du nord avec pommes paille croustillantes.", tags:["Poisson","Œuf"], info:"L’ajoarriero est une recette traditionnelle à base de poisson émietté, d’ail et de légumes."},
-      {n:"1.3", title:"Tripes à la navarraise", desc:"Recette traditionnelle mijotée avec jambon et chorizo.", tags:["Sulfites"]},
+      {n:"1.3", title:"Boulettes avec frites", desc:"Boulettes maison à la sauce tomate avec frites.", tags:["Gluten"]},
       {n:"1.4", title:"Queue de bœuf mijotée avec pommes de terre", desc:"Spécialité de la maison, mijotée lentement.", tags:["Sulfites"]}
     ],
     daily: {
@@ -449,3 +449,5 @@ document.addEventListener("click", e => {
 });
 
 renderContent();
+
+
